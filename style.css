@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #3a92a6, #d064ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}h1{
+    color:rgb(164,8,8);
+    margin-bottom: 20px;
+}
+
+#wordDisplay{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    padding: 8px;
+    width: 60%;
+    margin-bottom: 10px;
+    border: 1px solid #8d1c1c;
+    border-radius: 4px;
+    text-align: center;
+}
+
+button{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: rgb(103,103,216);
+}
+
+button:hover{
+    background-color: rgb(40,159,180);
+}
+
+#message{
+    margin-top: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+#remainingAttempts{    
+    font-weight: bold;
+    color: rgb(145,47,47);
+}

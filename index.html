@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelime Tahmini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kelime Tahmin Oyunu</h1>
+        <p id="wordDisplay">_ _ _ _ _</p>
+        <p>Kalan Hak: <span id="remainingAttempts">5</span></p>
+        <p>Yanlış Harfler: <span id="wrongGuessesDisplay">Yok</span></p>
+        <input type="text" id="guessInput" maxlength="1" placeholder="Bir harf giriniz">
+        <button onclick="makeGuess()">Tahmin Et</button>
+        <p id="message"></p>
+        <button onclick="resetGame()">Yeniden Başlat</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
